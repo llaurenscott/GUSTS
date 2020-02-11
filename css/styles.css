@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Lato', sans-serif; */
+
+
+html, body{
+  font-family: 'Raleway', sans-serif;
+  color:#505962;
+}
+
+
+/* Navigation */
+.navbar{
+  text-transform: uppercase;
+  font-size: 700;
+  font-size:.9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand img {
+  height: 4rem;
+}
+
+.navbar-nav li{
+  padding-right: .7rem;
+}
+
+/* nav font color and padding */
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem;
+}
+/* hover nav font color */
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color:pink;
+}
+
+
+/* landing page */
+#home {
+  background: url(../img/background-frontpage.png)no-repeat center center;
+  display: table;
+  height: 40em;
+  position: relative;
+  width: 100%;
+  background-size:cover;
+}
+
+.caption{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color:white;
+  text-transform: uppercase;
+}
+
+.caption h1{
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3{
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.btn-lg{
+  border-width: medium;
+  border-radius: 0;
+  padding:.6rem 1.3rem;
+  font-size: 1.1rem;
+}
+
+.padding-text{
+  padding: 80px;
+}
+
+/* stamp */
+#stamp{
+  max-width: 100%;
+  height: auto;
+  -webkit-filter: drop-shadow(5px 5px 5px #2e2d2c);
+  transform: rotate(240deg);
+}
+
+/* reviews carousel*/
+.carousel-inner{
+  width: 100%;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+
+/*footer */
+.footer{
+  background:#323232;
+  color: white;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+}
+
+.footer .container-footer{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+
+
+.footer h1{
+  color:white;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+  margin:10px;
+  letter-spacing: .1em;
+  padding-bottom: 10px;
+}
+
+
+
+/* opening hours */
+.openinghours {
+    padding:0 10px 0 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.openinghourscontent {
+    float:left;
+}
+.openinghourscontent h2 {
+    display:block;
+    text-align:center;
+    margin-top:.33em;
+}
+
+.today {
+    color: #8AC007;
+}
+.opening-hours-table tr td:first-child {
+    font-weight:bold;
+}
+
+#open-status {
+    display:block;
+    margin-top:-1em;
+    text-align:center;
+    padding: 10px;
+}
+.openorclosed:after {
+    content:" open during these hours:";
+}
+.open {
+    color:green;
+}
+.open:after {
+    content:" Open";
+    color: #6C0;
+}
+.closed:after {
+    content:" Closed";
+    color: red;
+}
+.opening-hours-table tr td {
+    padding:5px;
+}
+
+
+/* Google maps */
+.map-container-2{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-2 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.social-media
+{
+  text-align: center;
+  padding: 15px;
+}
+/* Social media */
+.social-media a {
+  color: white;
+  font-size:3em;
+  letter-spacing:1em;
+  text-decoration:none;
+  padding: 15px;
+}
+.social-media a:hover {
+  font-size: 3.2em;
+  transition: 0.4s ease;
+}
+
+
+
+/*Header all pages*/
+.header {
+  background: url(../img/menu-banner.jpg)no-repeat center center;
+  display: table;
+  height: 5.6em;
+  position: relative;
+  width: 100%;
+  background-size:cover;
+}
+
+
+
+.header-caption h3{
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+/* Pre order*/
+.order-form .container {
+      color: #4c4c4c;
+      padding: 20px;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    }
+
+.order-form-label {
+      margin: 8px 0 0 0;
+      font-size: 14px;
+      font-weight: bold;
+}
+
+
+
+.btn-submit:hover {
+    background-color: #090909 !important;
+}
+
+/*Menu page*/
+.menu-list {
+  list-style: none;
+}
+
+/* menu carousel*/
+.carousel-drinks-inner{
+  width: 70%;
+  padding: 0px 0px;
+  text-align: center;
+  align-items: center;
+  height:16em;
+  overflow:hidden;
+  margin: 2em;
+}
+
+.drinks-image {
+  width: inherit;
+}
+
+.drinks-title {
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.menu-title {
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.menu-item {
+  padding-bottom: 0.7em;
+}
+
+.menu-header {
+  background: url(../img/menu-banner.jpg)no-repeat center center;
+  display: table;
+  height: 15em;
+  position: relative;
+  width: 100%;
+  background-size:cover;
+}
+
+.menu-header-caption{
+  display: table-cell;
+  text-align: center;
+  vertical-align: bottom;
+  padding-bottom: 2em;
+  color:white;
+  text-transform: uppercase;
+}
+
+.menu-header-caption h1{
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.menu-header-caption h3{
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1rem;
+}
+
+.menu-items {
+  justify-content: space-between;
+}
+
+.drinks-list {
+  align-content: center;
+}
+
+@media (min-width: 978px) {
+    td {
+      padding-left: 10em;
+    }
+/*End of menu page styling*/
+
+
+/* Contact */
+.padding-contact{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.form-control{
+height:
+}
+
+/* about page. all in order but social media icons are at the bottom */
+#about{
+  padding-top:90px;
+}
+
+#aboutShare{
+  padding-bottom: 40px;
+}
+
+#aboutUs{
+  text-align: justify;
+  position: center;
+}
+
+#parties{
+  width: 100vw;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: rgb(0,0,0);
+  font-size: 20px;
+}
+
+#partyRow{
+ padding-right: 15%;
+ padding-left: 15%;
+}
+
+#contactUs{
+  min-width: 300px;
+  margin-left: auto;
+}
+
+#teamProfiles{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: inline-block;
+  display: -moz-inline-box;
+
+}
+.profiePic{
+  border-radius: 50%;
+  align: center;
+  max-width: 100%;
+  min-width: 20%;
+}
+
+.widget{
+  width: 100vw;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  align-self: left;
+  background-color: rgb(0,0,0);
+  font-size: 20px
+}
+
+.flavour{
+  min-width:130px;
+}
+
+.options{
+  font-size; 20px;
+}
+
+#valueInsta{
+  height: 100%;
+  width: 100%;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#accordion{
+  max-width: 500px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#accordion .ui-accordion-content a {
+
+}
+
+#accordion .ui-accordion-header {
+
+  margin: 0px;
+
+  box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, .4),
+        inset 0px 1px 1px 0px rgba(0, 0, 0, .2);
+}
+
+#accordion:hover
+.accordion-item:hover
+.accordion-item-content,
+#accordion
+.accordion-item--default
+.accordion-item-content {
+    height: 20em;
+}
+
+.accordion-item-content,
+#accordion:hover
+.accordion-item-content {
+    height: 0;
+    overflow: hidden;
+    transition: .25s;
+}
+
+
+#hashtag{
+  text-align: center;
+}
+
+.instagram-media{
+  height: 100%;
+  width: 50%;
+  min-height: 420px;
+  text-align: center;
+}
+/* Follow Us Section */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Social media icons*/
+#socialMedia{
+  padding: 20px 20px 20px 20px;
+  box-shadow: 2px grey;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  max-height: 320px;
+  max-width: 205px;
+}
+
+#followUs{
+  text-align: center;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: black;
+  color: white;
+}
+/* instagram */
+.fa-instagram {
+  background: black;
+  color: white;
+}
+/* linked in*/
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+/* youtube */
+.fa-youtube {
+  background: black;
+  color: white;
+/* vimeo */
+.fa-vimeo {
+    background: black;
+    color: white;
+  }

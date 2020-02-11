@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About</title>
+  <!-- The ones Kat added -->
+  <!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel='stylesheet' type='text/css' href='css/bootstrap-4.3.1-dist/css/bootstrap.min.css'>
+  <link rel='stylesheet' type='text/css' href='css/styles.css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- <script> -->
+  <script>
+
+// for vote
+ $( function() {
+   $( "input" ).checkboxradio();
+ } );
+ </script>
+<!-- Accordian, our values -->
+<script>
+  $(window).load(function() {
+    $( "#accordion" ).accordion();
+  } );
+</script>
+  <script>
+// The toggler fucntion
+  $( function() {
+    var state = true;
+    $( ".button").on( "click", function() {
+      if ( state ) {
+        $( "#effect" ).animate({
+          backgroundColor: "#aa0000",
+          color: "#fff",
+          width: 500
+        }, 1000 );
+      } else {
+        $( "#effect" ).animate({
+          backgroundColor: "#fff",
+          color: "#000",
+          width: 240
+        }, 1000 );
+      }
+      state = !state;
+    });
+  } );
+</script>
+
+<!-- hover tooltip -->
+<script>
+  $( function() {
+    $( document ).tooltip();
+  } );
+</script>
+
+<script>
+      (function(e, t, n, r) {
+          if (e) return;
+          t._appt = true;
+          var i = n.createElement(r),
+              s = n.getElementsByTagName(r)[0];
+          i.async = true;
+          i.src = '//dje0x8zlxc38k.cloudfront.net/loaders/s-min.js';
+          s.parentNode.insertBefore(i, s)
+      })(window._appt, window, document, "script")
+  </script>
+
+
+  <script async defer src="http://platform.instagram.com/en_US/embeds.js"></script>
+  <style>
+  label {
+    display: inline-block;
+    width: 5em;
+  }
+  </style>
+</head>
+
+<body>
+<!-- Navigation -->
+  <nav class = "navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class = "navbar-brand" href="index.html"><img src="img/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class ="collapse navbar-collapse" data-hover="dropdown" data-animaions="fadeIn   fadeIn" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="food-menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="pick-up.html">Pick Up</a>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="header">
+  </div>
+  <!-- conten
+
+<!- Who we are -->
+<div id="about" class="container">
+<h1> About us</h1>
+  <div class="row" id="aboutShare">
+    <div class="col-sm-8 col-md-8 col-lg-9">
+        <p id= "aboutUs">
+        In 2019 four girls came together to attempt to learn how to code throught Code First Gilrs and Skyscanner. But it was difficult
+        so we opened a cafe instead. We applied for a small loan of a million dollars and bought what is now the calm cafe, but obviouly
+        wasn't at the time! We also treated ourselves to Tinder Gold and a washing machines WITH a dryer. All of our our paintings were
+        gifted and all of our furniture is stolen. Our coffee comes from the high aplitudes of Primrose Hill and we rost it in house!
+        </p>
+  </div>
+  <!-- Social media icons -->
+  <div class="col-sm-4 col-md-4 col-lg-3" >
+    <div id="followUs">
+        <h3> Follow us!</h3>
+    </div>
+    <div id="socialMedia" >
+        <a href="https://www.facebook.com/" class="fa -facebook"></a>
+        <a href="https://twitter.com/?lang=en-gb" class="fa -twitter"></a>
+        <a href="https://www.instagram.com/" class="fa -instagram"></a>
+        <a href="https://www.linkedin.com/" id="fa fa-linkedin"></a>
+        <a href="https://vimeo.com/" id="fa fa-vimeo"></a>
+        <a href="https://www.youtube.com/" class="fa -youtube"></a>
+      </div>
+   </div>
+</div>
+</div>
+<!-- Leave your email -->
+<div id="parties">
+  <div class="container">
+    <p><b>
+      We now do party bookings! Leave your email if you would like more information!
+    </b></p>
+    <div class="row" id="partyRow">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+          <input id="contactUs" title="We won't share your details, or annoy you with newsletters!" placeholder ="your@email.com" type="text" ></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+          <button type="button" id="sendMessage" class="btn btn-outline-dark"><b>Submit</b></button>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- team profiles -->
+<div class="container">
+  <center>
+  <p id="teamProfiles">
+    <div class="row">
+      <!-- Katrine -->
+      <div class=" col-xs-12 col-sm-6 col-md-3 col-lr-3">
+            <img class="profiePic" src="23130986_10214033836536839_8577226592759389076_n.jpg" width="200px">
+            <p align="justify"> This is Kat. She likes to re-write code over and over because she always deletes it.
+            <a href="https://www.instagram.com/katgregersen/">Check her insta here!</a>
+            </p>
+      </div>
+      <!-- Sophie -->
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lr-3">
+            <img class="profiePic" src="69480947_2367274376659505_6431110340552949760_o.jpg" width="200px">
+            <p> This is Sophie.Her laptop broke in the middle of learning to code but she turned up anyway. <a href="https://www.instagram.com/sophiemca_/">Check her insta here!</a>
+            </p>
+      </div>
+      <!-- Charlea -->
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lr-3">
+            <img class="profiePic" src="69548387_2955708171321843_4370917668006395904_o.jpg" width="200px">
+            <p align="justify"> This is Charlea. it's pronounced 'Charlie'. Her bf doesn't help at the cafe <a href="https://www.instagram.com/charleaharrison/">Check her insta here!</a>
+            </p>
+      </div>
+      <!-- Lauren -->
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lr-3">
+            <img class="profiePic" src="76653022_10157911099983255_3586021332489338880_n.jpg" width="200px">
+            <p align="justify"> This is Lauren. This is me all happy, so before I started worrying about CSS pages. <a href="https://www.instagram.com/charleaharrison/">Check her insta here!</a>
+            </p>
+    </div>
+    </p>
+  </div>
+</centre>
+</div>
+</div>
+
+<br>
+<!-- Vote for our next flavour! -->
+<div class="widget">
+    <h2>Vote for our next coffee flavour!</h2>
+        <fieldset>
+        <h4>Every season we go on a flavour adventure, help us decide our next new flavour!</h4>
+            <div class="row" class="options">
+              <div class="col-xs-12 col-sm-3" >
+                <label class="flavour" for="radio-1">Mixed Fruit</label>
+                <input type="radio" name="radio-1" class="option">
+              </div>
+              <br>
+              <div class="col-xs-12 col-sm-3">
+                <label class="flavour" for="radio-2">Orange</label>
+                <input type="radio" name="radio-1" class="option">
+              </div>
+              <br>
+              <div class="col-xs-12 col-sm-3">
+                <label class="flavour" for="radio-3">Vodka</label>
+                <input type="radio" name="radio-1" class="option">
+              </div>
+              <div class="col-xs-12 col-sm-3">
+                <button type="button" class="btn btn-outline-dark">Submit</button>
+              </div>
+            </div>
+       </fieldset>
+</div>
+<br>
+<!-- Values and fave hashtag -->
+<div class="container">
+  <div id="valueInsta">
+      <!-- Our Value Accordian -->
+
+        <center>
+        <h3><b> Our Values</b></h3>
+        <div id="accordion" >
+          <div class="accordion-item">
+            <h3>Work hard</h3>
+                <div class="accordion-item-content">
+                  <p>
+                  But not too hard that you become moody because you never see your friends.
+                  </p>
+               </div>
+            </div>
+            <div class="accordion-item">
+              <h3>Laugh Alot</h3>
+            <div class="accordion-item-content">
+                <p>
+                But not too much because we needing to be turning coffees out.
+                </p>
+            </div>
+            </div>
+          <div class="accordion-item">
+            <h3>Kindness</h3>
+            <div class="accordion-item-content">
+            <p>
+              Unless,
+              <ul>
+                <li>Someone of age has called you a snowflake</li>
+                <li>You priously saw that person NOT help someone with a pram up the stairs </li>
+                <li>Someone is watching a football match with no headphones in because we hate that.</li>
+              </ul>
+            </p>
+            </div>
+          </div>
+        <div class="accordion-item">
+            <h3>Quaility at a good price</h3>
+            <div class="accordion-item-content">
+              <p>
+              But only to an extent because we want a fair wage yknow
+              </p>
+          </div>
+         </div>
+        </div>
+        <br>
+      </div>
+      <br>
+      <!-- Fave Hashtag embedded code -->
+      <div id="hashtag" class="col-xs-12 col-md-4">
+    </div>
+  </div>
+</div>
+
+<!-- Footer  -->
+<div class="footer">
+<div class="container-footer">
+<div class="row">
+            <!-- Opening hours  -->
+<div class="col-sm-4" >
+<section class="openinghours">
+    <div class="openinghourscontent section">
+        <div class="header-opening">
+             <h1>Opening hours</h1>
+             <span id="open-status"><small class="openorclosed">We are</small></span>
+        </div>
+        <table class="opening-hours-table">
+            <tr id="Monday" itemprop="openingHours" title="Open Monday at 9am to 6pm">
+                <td>Monday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Tuesday" itemprop="openingHours" title="Open Tuesday at 9am to 6pm">
+                <td>Tuesday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Wednesday" itemprop="openingHours" title="Open Wednesday at 9am to 6pm">
+                <td>Wednesday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Thursday" itemprop="openingHours" title="Open Thursday at 9am to 8pm">
+                <td>Thursday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">20:00</td>
+            </tr>
+            <tr id="Friday" itemprop="openingHours" title="Open Friday at 9am to 6pm">
+                <td>Friday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Saturday" itemprop="openingHours" title="Open Saturday at 10am to 6pm">
+                <td>Saturday</td>
+                <td class="opens">10:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Sunday" itemprop="openingHours" title="Open Sunday at 11am to 4pm">
+                <td>Sunday</td>
+                <td class="opens">11:00</td>
+                <td>-</td>
+                <td class="closes">16:00</td>
+            </tr>
+        </table>
+
+        <script>
+            (function(e, t, n, r) {
+                if (e) return;
+                t._appt = true;
+                var i = n.createElement(r),
+                    s = n.getElementsByTagName(r)[0];
+                i.async = true;
+                i.src = '//dje0x8zlxc38k.cloudfront.net/loaders/s-min.js';
+                s.parentNode.insertBefore(i, s)
+            })(window._appt, window, document, "script")
+        </script>
+    </div>
+</section>
+</div>
+
+<!-- Location  -->
+  <div class="col-sm-4">
+            <h1>Location</h1>
+            <p> 150 Dundas Street<br> Edinburgh <br> EH3 5DQ</p>
+            <p> 07124 567890</p>
+            <!--Google map-->
+            <div id="map-container-google-2" class="z-depth-1-half map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233.3688479383923!2d-3.2033866839610186!3d55.96031048060942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c794a36c098d%3A0x552b04ce0130221c!2sCuckoo&#39;s%20Bakery!5e0!3m2!1sda!2suk!4v1573831934197!5m2!1sda!2suk"frameborder="0"
+                style="border:0" allowfullscreen></iframe>
+            </div>
+</div>
+
+        <!-- Social media  -->
+
+        <div class="col-sm-4">
+            <h1>Social Media</h1>
+            <div class="social--media">
+            <ul style="list-style: none">
+              <li><a href="#" class="fa fa-facebook"></a></li>
+              <li><a href="#" class="fa fa-instagram"></a></li>
+              <li><a href="#" class="fa fa-twitter"></a></li>
+            </ul>
+            </div>
+      </div>
+
+</div>
+</div>
+</div>
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
